@@ -1,6 +1,7 @@
+import { FunctionalComponent } from "preact";
 import { Logo } from "./logo";
 
-export function App(props) {
+export const App: FunctionalComponent = (props) => {
   return (
     <>
       <Logo />
@@ -17,4 +18,4 @@ export function App(props) {
       </p>
     </>
   );
-}
+};
